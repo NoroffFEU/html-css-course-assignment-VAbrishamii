@@ -215,21 +215,96 @@ h3 {
   width: 100%;
   margin-bottom: 20px;
 }
+.form input:hover {
+}
+/* ------------------------------------Policy------------------------------------------*/
+
 .checkbox {
   display: flex;
-  align-items: center;
-  justify-content: center;
+
   flex-direction: column;
+  margin-left: 440px;
 }
 
 .policy,
 .gift {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
-.check {
-  margin-right: 50px;
+.policy,
+.gift,
+p,
+i {
+  margin-left: 10px;
+}
+.policy {
+  color: #646464;
+}
+/* ------------------------------------Payment------------------------------------------*/
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+.paypal,
+.credit-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 8px;
+  box-shadow: 0 0 5px #3b3b3b;
+  height: 40px;
+}
+.payment p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 50px;
+  height: 20px;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #8c8a8a;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+/* ------------------------------------Buttom------------------------------------------*/
+.buttom {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 310px;
+}
+.buttom button {
+  padding: 15px;
+  border: none;
+  background-color: rgb(63, 63, 223);
+  color: #fff;
+  border-radius: 30px;
+  width: 200px;
+  margin: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button:hover {
+  background-color: rgb(31, 31, 201);
 }
 /* ------------------------------------Footer------------------------------------------*/
 
