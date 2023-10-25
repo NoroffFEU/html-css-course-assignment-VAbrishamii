@@ -245,6 +245,8 @@ i {
 .payment {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
 }
 .paypal,
 .credit-card {
@@ -280,7 +282,6 @@ i {
   vertical-align: middle;
   border: 1px solid #8c8a8a;
   appearance: none;
-  -webkit-appearance: none;
   outline: none;
   cursor: pointer;
 }
