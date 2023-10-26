@@ -135,12 +135,12 @@ li {
   display: block;
 }
 /* ------------------------------------Info------------------------------------------*/
-.info {
-  margin-top: 10rem;
+.contact {
+  margin-top: 8rem;
   text-align: center;
   display: block;
 }
-.info p {
+.contact p {
   font-size: 25px;
   margin-top: 40px;
   width: 48%;
@@ -206,7 +206,6 @@ li {
   background-color: #000;
 }
 /* ------------------------------------Footer------------------------------------------*/
-
 footer {
   width: 100vw;
   height: 280px;
@@ -251,7 +250,7 @@ footer {
 .col-3 li p {
   margin: 0;
 }
-.line-botton {
+.line {
   content: "";
   border: 1px solid white;
   width: 100%;
