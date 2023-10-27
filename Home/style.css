@@ -14,9 +14,10 @@ a {
 /* ------------------------------------------header--------------------------*/
 .header {
   display: flex;
-  height: 100vh;
-  width: 100%;
+  height: 0;
   position: relative;
+  max-width: 100%;
+  padding-bottom: 80%;
 
   &::before {
     content: "";
@@ -52,17 +53,17 @@ nav a {
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   color: #000;
 }
-
 ul {
   list-style: none;
   display: flex;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: serif, inria serif;
 }
 
@@ -130,8 +131,8 @@ li {
   position: relative;
   font-size: 2.3rem;
   text-align: center;
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  padding-top: 15%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -147,7 +148,7 @@ li {
   flex-wrap: wrap;
   align-items: center;
   border: none;
-  margin-top: 180px;
+  margin-top: 25%;
   padding: 45px;
 }
 
@@ -174,8 +175,9 @@ li {
 }
 /* ------------------------------------main------------------------------------------*/
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   display: flex;
+  flex-wrap: wrap;
   font-family: sans-serif;
   text-align: left;
   padding: 10px 90px;
@@ -188,7 +190,6 @@ h2 {
 
   align-items: center;
   justify-content: center;
-
 }
 .clearfix::after {
   content: "";
@@ -197,7 +198,7 @@ h2 {
 }
 
 .card {
-  width: 100%;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
@@ -211,7 +212,6 @@ h2 {
   border-radius: 5px;
   box-shadow: none;
   flex: 1 1 200px;
-  /* aspect-ratio: 1; */
   overflow: hidden;
 }
 .card-content img,
@@ -231,22 +231,26 @@ h2 {
   transform: translateY(-5px);
 }
 .card img {
-  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
   height: 190px;
   margin-bottom: 5px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 3px;
   box-shadow: none;
 }
 
 .card h4 {
-  font-size: 1.3rem;
+  font-size: 1.5vw;
   margin-top: 10px;
-  width: 200px;
+  min-width: 200px;
   font-family: serif;
 }
 .card p {
-  font-size: 1rem;
+  min-width: 80px;
+  font-size: 1.3vw;
   line-height: 20px;
   color: #000;
 }
@@ -258,13 +262,17 @@ h2 {
   align-items: center;
   padding: 70px 20px;
 }
-
+.content {
+  min-width: 100px;
+  padding: 0 20px;
+}
 .content h3 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: serif;
   font-size: 2rem;
+  padding: 0 20px;
 }
 .content p {
   padding: 30px;
@@ -347,7 +355,7 @@ footer {
 
 /* @media (max-width: 393px) {
   /* ------------Navbar-------------- */
-  /* .container {
+/* .container {
     display: none;
   }
   .burger {
@@ -355,8 +363,8 @@ footer {
     margin: 15px;
     font-size: 25px;
   } */
-  /* -------------Slang---------------- */
-  /* .slang p {
+/* -------------Slang---------------- */
+/* .slang p {
     font-size: 25px;
     display: flex;
     text-align: left;
@@ -371,8 +379,8 @@ footer {
     width: 30%;
     margin-right: 15px;
   } */
-  /* ----------------------------main----------------------- */
-  /* h2 {
+/* ----------------------------main----------------------- */
+/* h2 {
     font-size: 1rem;
     padding-left: 40px;
   }
@@ -382,8 +390,8 @@ footer {
   .gallary .btn {
     width: 80%;
   } */
-  /* ---------------------About us------------------------- */
-  /* .about {
+/* ---------------------About us------------------------- */
+/* .about {
     display: block;
     width: 90vw;
   }
@@ -395,8 +403,8 @@ footer {
     font-weight: 600;
     padding: 20px;
   } */
-  /* -----------------------footer----------------------- */
-  /* footer {
+/* -----------------------footer----------------------- */
+/* footer {
     width: 100%;
     height: 180px;
   }
@@ -408,4 +416,3 @@ footer {
   .botton-icon {
     padding: 0 5px;
   } */
-} */
