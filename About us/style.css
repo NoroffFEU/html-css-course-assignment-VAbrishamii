@@ -165,3 +165,37 @@ li {
   padding: 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+/* ----------------------------------Community----------------------- */
+.community {
+  background-color: #e6ece4;
+  width: 100%;
+  margin: 20px 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.community h2,
+p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.community p {
+  font-size: 20px;
+  width: 40%;
+  margin-left: 460px;
+}
+.join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+}
+.join button {
+  width: 20%;
+  padding: 20px;
+  background-color: #3b3939;
+  border: none;
+  color: #fff;
+}
