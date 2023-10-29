@@ -414,3 +414,9 @@ footer {
     font-size: 10px;
   }
 }
+@media (max-width: 1024px) {
+  .botton {
+    width: 100%;
+    margin-top: 20rem;
+  }
+}
