@@ -414,9 +414,27 @@ footer {
     font-size: 10px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .botton {
     width: 100%;
     margin-top: 20rem;
+  }
+  .gallary {
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: scroll; */
+  }
+  .card {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 10px;
+    margin: 0;
+  }
+  .card img {
+    width: 100%;
+  }
+  .card button {
+    width: 80%;
+    margin-left: 15px;
   }
 }
