@@ -160,12 +160,12 @@ li {
 }
 .main-img-card {
   display: flex;
-  width: 27vw;
+  width: 26vw;
   height: 500px;
   margin: 15px;
 }
-.main-img-card:first-child {
-  border: 1px solid #1f1f1f;
+.main-img-card:first-child:hover {
+  box-shadow: 0 0 5px #3b3b3b;
 }
 .img-card {
   display: grid;
