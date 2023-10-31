@@ -35,11 +35,17 @@ a {
   background-color: black;
 }
 /* ---------------------------------Header------------------------------ */
-.header {
+header {
   display: flex;
-
-  width: 100vw;
+  justify-content: space-between;
+  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
 }
 
 nav {
@@ -47,7 +53,6 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 nav img {
@@ -93,7 +98,7 @@ li {
   outline: none;
   border-bottom: 1px solid black;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .search li p {
@@ -198,4 +203,72 @@ p {
   background-color: #3b3939;
   border: none;
   color: #fff;
+}
+/* ---------------------------footer----------------------------------- */
+footer {
+  width: 100vw;
+  height: 280px;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.footer-column {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+.footer-column a {
+  color: #fff;
+}
+.col-1,
+.col-2,
+.col-3 {
+  display: flex;
+  flex-direction: column;
+}
+.col-3 li {
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  margin-top: 10px;
+}
+.col-3 li i {
+  font-size: 25px;
+  margin-right: 30px;
+  color: #fff;
+}
+
+.col-3 li p {
+  margin: 0;
+}
+.line-botton {
+  content: "";
+  border: 1px solid white;
+  width: 100%;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 0;
+  padding: 0 20px;
+}
+.botton-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.botton-icon li {
+  color: #fff;
+}
+.botton-icon p {
+  margin-right: 10px;
 }

@@ -148,6 +148,7 @@ li {
   gap: 5rem;
   overflow: hidden;
 }
+
 .add-to-card {
   margin-top: 10rem;
   margin-left: 100px;
@@ -235,7 +236,7 @@ li {
 .details-content .btn {
   width: 400px;
   border-radius: 30px;
-  margin-left: 80px;
+  margin-left: 40px;
   margin-top: 50px;
 }
 .product-details {
@@ -466,6 +467,7 @@ footer {
   }
   .details-content .btn {
     margin-left: 0;
+    width: 65%;
   }
   .product-details {
     margin-left: 50px;

@@ -42,6 +42,7 @@ header {
   position: relative;
   overflow: hidden;
 }
+
 .header {
   position: fixed;
   width: 100%;
@@ -368,7 +369,7 @@ footer {
   }
   .burger {
     display: flex;
-    margin: 15px;
+    margin: 18px;
     font-size: 25px;
   }
   /* ----------------------------ُslider------------------------ */
