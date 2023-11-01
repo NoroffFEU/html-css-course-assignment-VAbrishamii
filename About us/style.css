@@ -44,7 +44,7 @@ header {
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 
@@ -140,10 +140,13 @@ li {
   display: block;
 }
 /* ----------------------------------------------History-------------------------- */
+.about-us {
+  width: 100%;
+  overflow: hidden;
+}
 .history {
   width: 100%;
   height: 10rem;
-  margin-top: 10rem;
   background-color: #e6ece4;
 }
 .history p {
@@ -167,7 +170,7 @@ li {
   line-height: 25px;
   font-size: 1rem;
   text-align: justify;
-  padding: 10px;
+
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 /* ----------------------------------Community----------------------- */
@@ -178,18 +181,16 @@ li {
   padding: 30px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .community h2,
 p {
   text-align: center;
   padding: 10px;
   margin: 10px;
-}
-.community p {
   font-size: 20px;
-  width: 40%;
-  margin-left: 460px;
 }
+
 .join {
   display: flex;
   align-items: center;
@@ -271,4 +272,44 @@ footer {
 }
 .botton-icon p {
   margin-right: 10px;
+}
+@media (max-width: 768px) {
+  /* ------------Header-------------- */
+  .container {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    margin: 15px;
+    font-size: 25px;
+  }
+  /* --------------------history-------------------- */
+  .history-details img {
+    width: 70%;
+  }
+  .history-details h4 {
+    width: 55%;
+  }
+  /* ----------------------footer--------------------------- */
+  footer {
+    max-width: 100%;
+    height: 500px;
+  }
+  .col-3 li i {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .history-details h4 {
+    width: 70%;
+  }
+  footer {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  .col-3 li i {
+    font-size: 10px;
+  }
 }

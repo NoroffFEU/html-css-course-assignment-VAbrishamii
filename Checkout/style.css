@@ -43,7 +43,7 @@ header {
   overflow: hidden;
 }
 .header {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 
@@ -142,7 +142,7 @@ li {
 /* ------------------------------------Main------------------------------------------*/
 
 .order {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -182,6 +182,10 @@ li {
   align-items: center;
   overflow: hidden;
 }
+.product {
+  display: flex;
+  align-items: center;
+}
 
 .product img {
   width: 130px;
@@ -207,6 +211,7 @@ li {
   justify-content: center;
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
 h3 {
   display: flex;
@@ -234,8 +239,10 @@ h3 {
 
 .checkbox {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   flex-direction: column;
-  margin-left: 440px;
   overflow: hidden;
 }
 
@@ -251,6 +258,7 @@ p,
 i {
   margin-left: 10px;
 }
+
 .policy {
   color: #646464;
 }
@@ -259,8 +267,8 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 40px;
-  width: 100%;
+  align-items: center;
+  width: 80%;
 }
 .paypal,
 .credit-card {
@@ -301,11 +309,11 @@ i {
 }
 /* ------------------------------------Buttom------------------------------------------*/
 .buttom {
-  width: 60%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 310px;
+  /* margin-left: 310px; */
   overflow: hidden;
 }
 .buttom button {
@@ -414,8 +422,13 @@ footer {
   .order .step h5 {
     font-weight: 200;
   }
-  .checkbox {
-    margin-left: 80px;
+  .form {
+    width: 90%;
+  }
+
+  .policy,
+  .gift {
+    align-items: left;
   }
   .paypal,
   .credit-card {
@@ -447,5 +460,8 @@ footer {
   .buttom {
     margin-left: 40px;
     width: 90%;
+  }
+  .checkbox {
+    margin-left: 0;
   }
 }

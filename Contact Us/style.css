@@ -35,11 +35,16 @@ a {
   background-color: black;
 }
 /* ---------------------------------Header------------------------------ */
-.header {
+header {
   display: flex;
-
-  width: 100vw;
+  justify-content: space-between;
+  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+.header {
+  /* position: fixed; */
+  width: 100%;
 }
 
 nav {
@@ -47,7 +52,6 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 nav img {
@@ -135,33 +139,42 @@ li {
   display: block;
 }
 /* ------------------------------------Info------------------------------------------*/
+.contact-us {
+  width: 100%;
+}
 .contact {
-  margin-top: 8rem;
+  /* margin-top: 5rem; */
   text-align: center;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
 }
 .contact p {
   font-size: 25px;
   margin-top: 40px;
-  width: 48%;
-  margin-left: 350px;
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .form {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 85px;
-  margin-right: 240px;
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .name,
 .email,
 .message {
-  width: 150%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,7 +227,6 @@ footer {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 15px;
 }
 .footer-column {
   width: 100vw;
@@ -273,4 +285,41 @@ footer {
 }
 .botton-icon p {
   margin-right: 10px;
+}
+
+/* ----------------------------------responsive----------------------- */
+@media (max-width: 768px) {
+  /* ------------Header-------------- */
+  .container {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    margin: 15px;
+    font-size: 25px;
+  }
+  .form {
+    width: 90%;
+  }
+
+  /* ----------------------footer--------------------------- */
+  footer {
+    max-width: 100%;
+    height: 350px;
+  }
+  .col-3 li i {
+    font-size: 15px;
+  }
+}
+
+/* -----------------------responsive 1024--------------------- */
+@media (max-width: 1023px) {
+  footer {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  .col-3 li i {
+    font-size: 10px;
+  }
 }
