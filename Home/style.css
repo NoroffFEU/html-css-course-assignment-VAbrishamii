@@ -171,7 +171,6 @@ li {
 
   border: none;
   border-radius: 5px;
-  /* margin: 0px 30px; */
 
   background: rgb(48, 47, 47);
   color: white;
@@ -200,8 +199,6 @@ h2 {
   justify-content: center;
   overflow: hidden;
   width: 100%;
-
-  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
 }
 .clearfix::after {
   content: "";
