@@ -45,12 +45,12 @@
             </div>
             <div class="burger-menu-item">
               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Women</a></li>
-                <li><a href="">Men</a></li>
-                <li><a href="">Kid</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a href="../Woman/index.html">Women</a></li>
+                <li><a href="../Woman/index.html">Men</a></li>
+                <li><a href="../Woman/index.html">Kid</a></li>
+                <li><a href="../About us/index.html">About</a></li>
+                <li><a href="../Contact Us/index.html">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -60,25 +60,40 @@
     <!-- //-------------------------------------Slider---------------------------// -->
     <main>
       <div class="slider">
-        <div class="img-slider">
-          <i class="fa-solid fa-arrow-left arrow"></i>
-          <div class="img-item">
-            <img src="../Image/panchu.jpeg" alt="" />
-            <p>Panchu</p>
+        <div>
+          <button class="arrow" onclick="scrollr()">
+            <i class="fa-solid fa-arrow-left arrow"></i>
+          </button>
+        </div>
+
+        <div class="image-slider-scroll">
+          <div class="image-slider">
+            <div class="slider-item">
+              <img class="slider-item-img" src="../Image/panchu.jpeg" alt="" />
+              <p>Panchu</p>
+            </div>
+            <div class="slider-item">
+              <img class="slider-item-img" src="../Image/stylish.webp" alt="" />
+              <p>Stylish</p>
+            </div>
+            <div class="slider-item">
+              <img
+                class="slider-item-img"
+                src="../Image/training.webp"
+                alt="" />
+              <p>training</p>
+            </div>
+            <div class="slider-item">
+              <img class="slider-item-img" src="../Image/casual.webp" alt="" />
+              <p>Casual</p>
+            </div>
           </div>
-          <div class="img-item">
-            <img src="../Image/stylish.webp" alt="" class="img-item" />
-            <p>Stylish</p>
-          </div>
-          <i class="fa-solid fa-arrow-right arrow"></i>
-          <div class="img-item">
-            <img src="../Image/training.webp" alt="" class="img-item" />
-            <p>training</p>
-          </div>
-          <div class="img-item">
-            <img src="../Image/casual.webp" alt="" class="img-item" />
-            <p>Casual</p>
-          </div>
+        </div>
+
+        <div>
+          <button class="arrow" onclick="scrolll()">
+            <i class="fa-solid fa-arrow-right arrow"></i>
+          </button>
         </div>
       </div>
       <div class="circle-content">
@@ -218,10 +233,10 @@
     <footer>
       <div class="footer-column">
         <ul class="col-1">
-          <li><a href="/about">About us</a></li>
-          <li><a href="/history">History</a></li>
-          <li><a href="/shipping">Shipping Information</a></li>
-          <li><a href="/retutn">Return Policy</a></li>
+          <li><a href="../About us/index.html">About us</a></li>
+          <li><a href="../About us/index.html">History</a></li>
+          <li><a href="">Shipping Information</a></li>
+          <li><a href="">Return Policy</a></li>
         </ul>
 
         <ul class="col-2">
@@ -265,5 +280,29 @@
         </div>
       </div>
     </footer>
+
+    <!-- -----------------------------------Burger JS click------------------------- -->
+    <script>
+      const burgerIcon = document.querySelector(".fa-bars");
+      const crossIcon = document.querySelector(".fa-xmark");
+      const burgerMenu = document.querySelector(".burger-menu");
+
+      burgerIcon.addEventListener("click", function () {
+        burgerMenu.classList.add("show-burger-menu");
+      });
+
+      crossIcon.addEventListener("click", function () {
+        burgerMenu.classList.remove("show-burger-menu");
+      });
+
+      function scrolll() {
+        var left = document.querySelector(".image-slider");
+        left.scrollBy(350, 0);
+      }
+      function scrollr() {
+        var right = document.querySelector(".image-slider");
+        right.scrollBy(-350, 0);
+      }
+    </script>
   </body>
 </html>
