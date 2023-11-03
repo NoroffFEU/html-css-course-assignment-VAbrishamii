@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Woman</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Add to Card</title>
+    <link rel="stylesheet" href="src/css/add to card.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -14,7 +14,7 @@
     <header>
       <div class="header">
         <nav>
-          <img src="../images/Image/logo.jpg" alt="" />
+          <img src="./assets/images/Image/logo.jpg" alt="" />
           <div class="container">
             <ul class="right-side">
               <li><a href="../Home/index.html">Home</a></li>
@@ -57,78 +57,95 @@
         </nav>
       </div>
     </header>
-    <!-- //-------------------------------------Slider---------------------------// -->
+    <!-- //-------------------------------------Add to card Slider---------------------------// -->
     <main>
-      <div class="slider">
-        <div>
-          <button class="arrow" onclick="scrollr()">
-            <i class="fa-solid fa-arrow-left arrow"></i>
-          </button>
-        </div>
+      <div class="container-grid">
+        <div class="add-to-card">
+          <div class="card-slider">
+            <div class="main-img-card">
+              <img src="./assets/images/Image/product-2.4.jpg" alt="" />
 
-        <div class="image-slider-scroll">
-          <div class="image-slider">
-            <div class="slider-item">
               <img
-                class="slider-item-img"
-                src="../images/Image/panchu.jpeg"
-                alt="" />
-              <p>Panchu</p>
+                src="./assets/images/Image/add to card gray.jpg"
+                alt=""
+                class="color" />
+              <img
+                src="./assets/images/Image/add to card blue.jpg"
+                alt=""
+                class="color" />
             </div>
-            <div class="slider-item">
-              <img
-                class="slider-item-img"
-                src="../images/Image/stylish.webp"
-                alt="" />
-              <p>Stylish</p>
-            </div>
-            <div class="slider-item">
-              <img
-                class="slider-item-img"
-                src="../images/Image/training.webp"
-                alt="" />
-              <p>training</p>
-            </div>
-            <div class="slider-item">
-              <img
-                class="slider-item-img"
-                src="../images/Image/casual.webp"
-                alt="" />
-              <p>Casual</p>
+
+            <div class="img-card">
+              <img src="./assets/images/Image/product-2.4.jpg" alt="" />
+              <img src="./assets/images/Image/add to card.jpg" alt="" />
+              <img src="./assets/images/Image/add to card 2.jpg" alt="" />
             </div>
           </div>
         </div>
 
-        <div>
-          <button class="arrow" onclick="scrolll()">
-            <i class="fa-solid fa-arrow-right arrow"></i>
-          </button>
+        <!-- //-------------------------------------Details---------------------------// -->
+        <div class="details">
+          <div class="details-content">
+            <h1>Fix Hood Jacket</h1>
+            <h3>NOK 1,990</h3>
+            <p>
+              Fix hood Jacket is a statement piece that quickly became a
+              bestseller among customers. The jacket is waterproof and has great
+              details in the design that gives you that little something extra
+              in the everyday life and for finer occasions.
+            </p>
+            <p>CHOOSE SIZE</p>
+            <div class="size-details">
+              <ul class="size">
+                <li>XS</li>
+                <li>S</li>
+                <li>M</li>
+                <li>L</li>
+              </ul>
+              <ul class="counter">
+                <li>-</li>
+                <li>1</li>
+                <li>+</li>
+              </ul>
+            </div>
+            <a href="../Checkout/index.htm">
+              <button class="btn">BUY</button>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="circle-content">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+      <div class="product-details">
+        <div class="product-details-item">
+          <h1>Details</h1>
+          <div class="arrow-down"></div>
+        </div>
+        <ul>
+          <li>Waterproof</li>
+          <li>Breathable</li>
+          <li>Two big zip pocket inside</li>
+          <li>
+            Lining: Stain 55% polyester 45% viscose-Factory supplied by 100%
+            green energy
+          </li>
+        </ul>
       </div>
 
       <!-- //-------------------------------------Card---------------------------// -->
-
-      <div class="title">
-        <h2>NEW ARRIVAL</h2>
-        <div class="line"></div>
+      <div class="product">
+        <h2>Similar Products</h2>
       </div>
 
       <div class="gallary clearfix">
         <div class="card">
           <div class="card-content">
-            <img src="../images/Image/product-2.1.webp" alt="" />
+            <img src="./assets/images/Image/product-2.8.jpg" alt="" />
             <h4>ALPHA HYBRID JACKET WOMEN</h4>
             <p>
               Soft Softshel Jacket and GOR_TEX protection combine in a hybrid
               jacket for climing
             </p>
             <h4>NOK 2580</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -136,14 +153,14 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../images/Image/product-2.2.webp" alt="" />
+            <img src="./assets/images/Image/product-2.5.jpg" alt="" />
             <h4>ACTIC JACKET MEN</h4>
             <p>
               Actic is a reliable zip jacket with all features you need for long
               daywith maximum protection
             </p>
             <h4>NOK 1850</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -151,14 +168,14 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../images/Image/product-2.3.webp" alt="" />
+            <img src="./assets/images/Image/product-2.2.webp" alt="" />
             <h4>LEGACY JACKET MEN</h4>
             <p>
               Legacy style with new technology that keep you dry during your
               session on mountain
             </p>
             <h4>NOK 2400</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -166,72 +183,14 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../images/Image/product-2.4.jpg" alt="" />
+            <img src="./assets/images/Image/product-2.7.jpg" alt="" />
             <h4>CYCLONE JACKET WOMEN</h4>
             <p>
               Cyclone is everything you wanted in a jacket and insulated enough
               to handle the harshest weather
             </p>
             <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
-              <button class="btn">ADD TO CARD</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="gallary clearfix">
-        <div class="card">
-          <div class="card-content">
-            <img src="../images/Image/product-2.5.jpg" alt="" />
-            <h4>CYCLONE JACKET WOMEN</h4>
-            <p>
-              Cyclone is everything you wanted in a jacket and insulated enough
-              to handle the harshest weather
-            </p>
-            <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
-              <button class="btn">ADD TO CARD</button>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img src="../images/Image/product-2.6.jpg" alt="" />
-            <h4>CYCLONE JACKET WOMEN</h4>
-            <p>
-              Cyclone is everything you wanted in a jacket and insulated enough
-              to handle the harshest weather
-            </p>
-            <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
-              <button class="btn">ADD TO CARD</button>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img src="../images/Image/product-2.7.jpg" alt="" />
-            <h4>CYCLONE JACKET WOMEN</h4>
-            <p>
-              Cyclone is everything you wanted in a jacket and insulated enough
-              to handle the harshest weather
-            </p>
-            <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
-              <button class="btn">ADD TO CARD</button>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <img src="../images/Image/product-2.8.jpg" alt="" />
-            <h4>CYCLONE JACKET WOMEN</h4>
-            <p>
-              Cyclone is everything you wanted in a jacket and insulated enough
-              to handle the harshest weather
-            </p>
-            <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -242,10 +201,10 @@
     <footer>
       <div class="footer-column">
         <ul class="col-1">
-          <li><a href="../About us/index.html">About us</a></li>
-          <li><a href="../About us/index.html">History</a></li>
-          <li><a href="">Shipping Information</a></li>
-          <li><a href="">Return Policy</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/history">History</a></li>
+          <li><a href="/shipping">Shipping Information</a></li>
+          <li><a href="/retutn">Return Policy</a></li>
         </ul>
 
         <ul class="col-2">
@@ -290,7 +249,6 @@
       </div>
     </footer>
 
-    <!-- -----------------------------------Burger JS click------------------------- -->
     <script>
       const burgerIcon = document.querySelector(".fa-bars");
       const crossIcon = document.querySelector(".fa-xmark");
@@ -303,15 +261,6 @@
       crossIcon.addEventListener("click", function () {
         burgerMenu.classList.remove("show-burger-menu");
       });
-
-      function scrolll() {
-        var left = document.querySelector(".image-slider");
-        left.scrollBy(350, 0);
-      }
-      function scrollr() {
-        var right = document.querySelector(".image-slider");
-        right.scrollBy(-350, 0);
-      }
     </script>
   </body>
 </html>

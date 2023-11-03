@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CheckOut</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="src/css/contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -14,12 +14,12 @@
     <header>
       <div class="header">
         <nav>
-          <img src="../images/Image/logo.jpg" alt="" />
+          <img src="./assets/images/Image/logo.jpg" alt="" />
           <div class="container">
             <ul class="right-side">
               <li><a href="../Home/index.html">Home</a></li>
               <li><a href="../Woman/index.html">Women</a></li>
-              <li><a href="../Woman/index.html">Men</a></li>
+              <li><a href="./Woman/index.html">Men</a></li>
               <li><a href="../Woman/index.html">Kid</a></li>
               <li><a href="../About us/index.html">About</a></li>
               <li><a href="../Contact Us/index.html">Contact</a></li>
@@ -47,7 +47,7 @@
               <ul>
                 <li><a href="../Home/index.html">Home</a></li>
                 <li><a href="../Woman/index.html">Women</a></li>
-                <li><a href="../Woman/index.html">Men</a></li>
+                <li><a href="./Woman/index.html">Men</a></li>
                 <li><a href="../Woman/index.html">Kid</a></li>
                 <li><a href="../About us/index.html">About</a></li>
                 <li><a href="../Contact Us/index.html">Contact</a></li>
@@ -59,133 +59,31 @@
     </header>
     <!-- //-------------------------------------Main---------------------------// -->
     <main>
-      <div class="order">
-        <div class="step">
-          <h5>Shipping</h5>
-          <p class="active">1</p>
-        </div>
-        <div class="step">
-          <h5>Payment</h5>
-          <p>2</p>
-        </div>
-        <div class="step">
-          <h5>Order Review</h5>
-          <p>3</p>
-        </div>
-      </div>
-      <div class="product-order">
-        <div class="product">
-          <img src="../images/Image/product-3.top.jpg" alt="" />
-          <ul>
-            <li>Orange Training Jacket</li>
-            <li>Size: M</li>
-            <li>Number: 1</li>
-            <li>1,350 NOK</li>
-          </ul>
-        </div>
-      </div>
-      <!-- //-------------------------------------Form---------------------------// -->
-      <div class="form">
-        <form action="">
-          <h3>Delivery Info</h3>
-          <div class="name">
-            <input type="text" name="Name" id="Name" placeholder="Name" />
-            <input
-              type="text"
-              name="LastName"
-              id="LastName"
-              placeholder="LastName" />
-          </div>
-          <div class="address">
-            <input
-              type="address"
-              name="Address"
-              id="Address"
-              placeholder="Address" />
-          </div>
-
-          <div class="location">
-            <input type="text" name="City" id="City" placeholder="City" />
-            <input type="text" name="State" id="State" placeholder="State" />
-            <input
-              type="number"
-              name="Zipcode"
-              id="Zipcode"
-              placeholder="Zipcode" />
-          </div>
-          <h3>Contact Info</h3>
-          <div class="info">
-            <input type="email" name="email" id="email" placeholder="Email" />
-            <input type="number" name="number" id="Phone" placeholder="phone" />
-          </div>
-        </form>
-      </div>
-      <!-- //-------------------------------------Policy---------------------------// -->
-      <div class="checkbox">
-        <div class="policy">
-          <label for="check">
-            <input
-              type="checkbox"
-              name="check"
-              id="check"
-              placeholder="check" />
-          </label>
-          <p>I accept privacy and policy</p>
-        </div>
-        <div class="gift">
-          <label for="chek">
-            <input
-              type="checkbox"
-              name="checkbox"
-              id="chek"
-              placeholder="checkbox" />
-          </label>
-          <i class="fa-solid fa-gift"></i>
+      <div class="contact-us">
+        <div class="contact">
+          <h1>CONTACT SALE</h1>
           <p>
-            Order includes Gifts . The packing slip include with your order will
-            not display price
+            Use This Form for any question we response in your Email within 24
+            hours
           </p>
         </div>
-        <!-- //-------------------------------------Payment method---------------------------// -->
-        <h3>Payment Method</h3>
-        <div class="payment">
-          <div class="paypal">
-            <div class="content">
-              <label for="check-box">
-                <input
-                  type="checkbox"
-                  name="checkbox"
-                  id="check-box"
-                  class="checkbox-round" />
-              </label>
-              <p>PayPal</p>
+        <div class="form">
+          <form action="">
+            <div class="name">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="LastName" />
             </div>
-            <div class="payment-icon">
-              <img src="../images/Image/paypal.png" alt="" />
+            <div class="email">
+              <input type="email" placeholder="Email" />
             </div>
-          </div>
-          <div class="credit-card">
-            <div class="content">
-              <label for="checkbox">
-                <input
-                  type="checkbox"
-                  name="checkbox"
-                  id="checkbox"
-                  class="checkbox-round" />
-              </label>
-              <p>Credit Card</p>
+            <div class="message">
+              <input type="text" placeholder="Message" />
             </div>
-
-            <div class="payment-icon">
-              <img src="../images/Image/visa.png" alt="" />
-              <img src="../images/Image/master.png" alt="" />
-            </div>
-          </div>
+          </form>
         </div>
-      </div>
-      <div class="buttom">
-        <a href="../Add to Card/index.html"><button>Back</button></a>
-        <a href="../CheckOut success/index.html"><button>Confirm</button></a>
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
       </div>
     </main>
     <!-- //-------------------------------------Footer---------------------------// -->
@@ -219,7 +117,7 @@
         </ul>
       </div>
 
-      <div class="line-botton"></div>
+      <div class="line"></div>
       <div class="icon">
         <div class="icon-left">
           <ul class="botton-icon">
