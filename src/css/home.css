@@ -156,7 +156,7 @@ li {
   flex-wrap: wrap;
   align-items: center;
   border: none;
-  margin-top: 25%;
+  margin-top: 25px;
   padding: 45px;
 }
 
@@ -371,11 +371,16 @@ footer {
   }
 
   .slang p {
-    font-size: 25px;
+    font-size: 1rem;
     text-align: left;
+    margin-top: 20px;
+  }
+  .botton {
+    margin-top: 15%;
   }
   .botton .btn {
-    width: 90%;
+    margin-bottom: 5px;
+    width: 80%;
   }
 
   /* ------------------main----------------------- */
