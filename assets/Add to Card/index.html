@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to Card</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <title>Rainy Days</title>
   </head>
-  <!-- --------------------------------------------------------Header------------------------------- -->
   <body>
+    <!-- //-------------------------------------Navbar----------------------------// -->
     <header>
       <div class="header">
         <nav>
-          <img src="../Image/logo.jpg" alt="" />
+          <img src="../images/Image/logo.jpg" alt="" />
           <div class="container">
             <ul class="right-side">
               <li><a href="../Home/index.html">Home</a></li>
@@ -29,16 +29,11 @@
                 <li><p>Search</p></li>
                 <li><i class="fa-solid fa-magnifying-glass"></i></li>
               </div>
-              <li>
-                <a href="../Add to Card/index.html">
-                  <i class="fa-solid fa-bag-shopping"></i>
-                </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-user"></i>
-              </li>
+              <li><i class="fa-solid fa-bag-shopping"></i></li>
+              <li><i class="fa-solid fa-user"></i></li>
             </ul>
           </div>
+
           <!-- //-------------------------------------burger-menu---------------------------// -->
           <div class="burger">
             <i class="fa-solid fa-bars burger"></i>
@@ -60,34 +55,97 @@
             </div>
           </div>
         </nav>
-        <!-- //-------------------------------------Cover---------------------------// -->
-        <div class="slang">
-          <p>Unlock the Outdoors, Embrace the Rain</p>
-          <div class="botton">
-            <a href="../Woman/index.html">
-              <button class="btn">MEN</button>
-            </a>
-            <a href="../Woman/index.html">
-              <button class="btn">WOMEN</button>
+      </div>
+    </header>
+    <!-- //-------------------------------------Add to card Slider---------------------------// -->
+    <main>
+      <div class="container-grid">
+        <div class="add-to-card">
+          <div class="card-slider">
+            <div class="main-img-card">
+              <img src="../images/Image/product-2.4.jpg" alt="" />
+
+              <img
+                src="../images/Image/add to card gray.jpg"
+                alt=""
+                class="color" />
+              <img
+                src="../images/Image/add to card blue.jpg"
+                alt=""
+                class="color" />
+            </div>
+
+            <div class="img-card">
+              <img src="../images/Image/product-2.4.jpg" alt="" />
+              <img src="../images/Image/add to card.jpg" alt="" />
+              <img src="../images/Image/add to card 2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- //-------------------------------------Details---------------------------// -->
+        <div class="details">
+          <div class="details-content">
+            <h1>Fix Hood Jacket</h1>
+            <h3>NOK 1,990</h3>
+            <p>
+              Fix hood Jacket is a statement piece that quickly became a
+              bestseller among customers. The jacket is waterproof and has great
+              details in the design that gives you that little something extra
+              in the everyday life and for finer occasions.
+            </p>
+            <p>CHOOSE SIZE</p>
+            <div class="size-details">
+              <ul class="size">
+                <li>XS</li>
+                <li>S</li>
+                <li>M</li>
+                <li>L</li>
+              </ul>
+              <ul class="counter">
+                <li>-</li>
+                <li>1</li>
+                <li>+</li>
+              </ul>
+            </div>
+            <a href="../Checkout/index.htm">
+              <button class="btn">BUY</button>
             </a>
           </div>
         </div>
       </div>
-    </header>
-    <!-- //-------------------------------------main---------------------------// -->
-    <main>
-      <h2>Selected Product</h2>
+      <div class="product-details">
+        <div class="product-details-item">
+          <h1>Details</h1>
+          <div class="arrow-down"></div>
+        </div>
+        <ul>
+          <li>Waterproof</li>
+          <li>Breathable</li>
+          <li>Two big zip pocket inside</li>
+          <li>
+            Lining: Stain 55% polyester 45% viscose-Factory supplied by 100%
+            green energy
+          </li>
+        </ul>
+      </div>
+
+      <!-- //-------------------------------------Card---------------------------// -->
+      <div class="product">
+        <h2>Similar Products</h2>
+      </div>
+
       <div class="gallary clearfix">
         <div class="card">
           <div class="card-content">
-            <img src="../Image/product-1.jpg" alt="" />
+            <img src="../images/Image/product-2.8.jpg" alt="" />
             <h4>ALPHA HYBRID JACKET WOMEN</h4>
             <p>
               Soft Softshel Jacket and GOR_TEX protection combine in a hybrid
               jacket for climing
             </p>
             <h4>NOK 2580</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -95,14 +153,14 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../Image/product-2.jpg" alt="" />
+            <img src="../images/Image/product-2.5.jpg" alt="" />
             <h4>ACTIC JACKET MEN</h4>
             <p>
               Actic is a reliable zip jacket with all features you need for long
               daywith maximum protection
             </p>
             <h4>NOK 1850</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -110,14 +168,14 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../Image/product-3.webp" alt="" />
+            <img src="../images/Image/product-2.2.webp" alt="" />
             <h4>LEGACY JACKET MEN</h4>
             <p>
               Legacy style with new technology that keep you dry during your
               session on mountain
             </p>
             <h4>NOK 2400</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
@@ -125,50 +183,28 @@
 
         <div class="card">
           <div class="card-content">
-            <img src="../Image/product-4.jpg" alt="" />
+            <img src="../images/Image/product-2.7.jpg" alt="" />
             <h4>CYCLONE JACKET WOMEN</h4>
             <p>
               Cyclone is everything you wanted in a jacket and insulated enough
               to handle the harshest weather
             </p>
             <h4>NOK 1900</h4>
-            <a href="../Add to Card/index.html">
+            <a href="../Checkout/index.htm">
               <button class="btn">ADD TO CARD</button>
             </a>
           </div>
         </div>
       </div>
-      <!----------------------------------------About us-------------------------------->
-      <div class="about">
-        <div class="image">
-          <img src="../Image/contact.jpg" alt="" class="about-us" />
-        </div>
-        <div class="content">
-          <h3>About Us</h3>
-          <p>
-            On a rainy afternoon, Sarah and Alex, the Co-founders of Rainy Days,
-            shared the vision. the vision gave birth to Rainy Days, the place
-            where functional meets fashionable, where waterproof meets
-            wonderful. Rainy days is not just about rainy jackets it is about
-            the people who wear them. whether you are running errands in the
-            city or embarking on a wilderness adventure we believe you should do
-            it in style. that is why their jackets are designed to be versatile,
-            comfortable, and above all reliable. As you are explore our
-            collection of rain jackets, remember that you are not just buying a
-            piece of clothing your are becoming part of the
-            <strong>RAINY DAYS</strong> story .
-          </p>
-        </div>
-      </div>
     </main>
-    <!----------------------------------------Footer-------------------------------->
+    <!-- //-------------------------------------Footer---------------------------// -->
     <footer>
       <div class="footer-column">
         <ul class="col-1">
-          <li><a href="../About us/index.html">About us</a></li>
-          <li><a href="../About us/index.html">History</a></li>
-          <li><a href="">Shipping Information</a></li>
-          <li><a href="">Return Policy</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/history">History</a></li>
+          <li><a href="/shipping">Shipping Information</a></li>
+          <li><a href="/retutn">Return Policy</a></li>
         </ul>
 
         <ul class="col-2">
@@ -212,7 +248,7 @@
         </div>
       </div>
     </footer>
-    <!-- -----------------------------------Burger JS click------------------------- -->
+
     <script>
       const burgerIcon = document.querySelector(".fa-bars");
       const crossIcon = document.querySelector(".fa-xmark");
