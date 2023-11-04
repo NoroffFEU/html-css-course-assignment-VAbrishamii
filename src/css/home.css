@@ -406,13 +406,28 @@ footer {
   }
 
   /* -----------------------footer----------------------- */
+
   footer {
     max-width: 100%;
-    height: 180px;
+    min-height: 30vh;
+  }
+  .footer-column {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    flex-basis: 100%;
   }
 
-  .col-3 li i {
-    font-size: 10px;
+  .icon {
+    flex-direction: row;
+  }
+  .icon-left,
+  .icon-right {
+    margin-top: 0;
   }
 }
 /* -----------------------responsive --------------------- */

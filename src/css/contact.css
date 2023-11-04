@@ -346,3 +346,33 @@ footer {
     font-size: 10px;
   }
 }
+@media (min-width: 1600px) {
+  .container ul {
+    font-size: 35px;
+  }
+  .search::after {
+    margin-top: 2.8rem;
+  }
+  .contact-us {
+    width: 100vw;
+  }
+  .contact,
+  .contact p {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .name,
+  .email,
+  .message {
+    width: 40vw;
+    margin-left: 30px;
+  }
+  .submit button {
+    width: 30%;
+    padding: 50px;
+    font-size: 3rem;
+  }
+  .form input {
+    padding: 25px;
+  }
+}

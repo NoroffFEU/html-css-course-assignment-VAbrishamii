@@ -190,6 +190,7 @@ li {
 .slider-item p {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: absolute;
   color: #fff;
   font-size: 4rem;
@@ -243,7 +244,7 @@ h2 {
   position: absolute;
   content: "";
   border: 1px solid rgb(96, 94, 94);
-  width: 65%;
+  width: 80%;
   margin: 80px 50px 0 380px;
 }
 .gallary {
@@ -393,6 +394,9 @@ footer {
   .container {
     display: none;
   }
+  .header {
+    height: 120px;
+  }
   .burger {
     display: flex;
     margin: 18px;
@@ -414,20 +418,21 @@ footer {
   }
   .slider-item-img {
     width: 110%;
-    height: 70%;
+    height: 100%;
   }
   .slider-item p {
-    /* font-size: 2rem; */
-    margin-left: 2rem;
+    margin-left: 5rem;
 
     z-index: 200;
-    margin-top: -15rem;
-    color: #000;
+    bottom: -40;
+    color: #fff;
   }
   h2 {
     padding: 10px 50px;
   }
-
+  .line {
+    display: none;
+  }
   /* -----------------------footer----------------------- */
   footer {
     max-width: 90%;
@@ -454,7 +459,7 @@ footer {
 }
 
 /* -----------------------responsive 1024--------------------- */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   /* ------------Footer-------------- */
 
   footer {
@@ -476,5 +481,33 @@ footer {
   .slider-item p {
     font-size: 2rem;
     text-align: center;
+  }
+}
+@media (min-width: 1600px) {
+  .container ul {
+    font-size: 35px;
+  }
+  .search::after {
+    margin-top: 2.8rem;
+  }
+
+  .slider-item p {
+    margin-left: 14rem;
+  }
+  .gallary {
+    grid-template-columns: repeat(auto-fit, 30rem);
+  }
+  .card {
+    width: 100%;
+  }
+
+  .card-content h4 {
+    width: 400px;
+  }
+  .card img {
+    height: 300px;
+  }
+  .footer-column {
+    font-size: 3rem;
   }
 }
