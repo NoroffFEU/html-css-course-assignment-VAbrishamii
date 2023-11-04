@@ -207,7 +207,7 @@ h2 {
 }
 
 .card {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -376,7 +376,7 @@ footer {
     margin-top: 20px;
   }
   .botton {
-    margin-top: 15%;
+    margin-top: 20rem;
   }
   .botton .btn {
     margin-bottom: 5px;
@@ -415,9 +415,12 @@ footer {
     font-size: 10px;
   }
 }
-/* -----------------------responsive 1024--------------------- */
-@media (max-width: 1023px) {
+/* -----------------------responsive --------------------- */
+@media (max-width: 1024px) {
   /* ------------Header-------------- */
+  .slang p {
+    font-size: 2.5rem;
+  }
   .botton {
     width: 100%;
     margin-top: 20rem;
@@ -443,11 +446,25 @@ footer {
     font-size: 10px;
   }
 }
-
-@media (max-width: 1399px) {
+/* -------------------------------------responsive----------------------------- */
+@media (min-width: 1024px) {
+  .slang p {
+    font-size: 3rem;
+  }
+  .search::after {
+    margin-top: 2.8rem;
+  }
   .botton {
     width: 100%;
-    margin-top: 20rem;
+    margin-top: 25rem;
+    font-size: 35px;
+    padding: 25px;
+  }
+
+  .card p,
+  h4 {
+    font-size: 1rem;
+    line-height: 1;
   }
   .about {
     flex-direction: column;
@@ -458,5 +475,13 @@ footer {
   }
   .about p {
     align-items: center;
+  }
+}
+@media (min-width: 1600px) {
+  .gallary {
+    display: flex;
+  }
+  .about img {
+    width: 100vw;
   }
 }
