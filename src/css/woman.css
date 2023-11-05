@@ -244,7 +244,7 @@ h2 {
   position: absolute;
   content: "";
   border: 1px solid rgb(96, 94, 94);
-  width: 80%;
+  width: 65%;
   margin: 80px 50px 0 380px;
 }
 .gallary {
@@ -393,6 +393,9 @@ footer {
   /* ------------Header-------------- */
   .container {
     display: none;
+  }
+  .header {
+    position: relative;
   }
   .burger {
     display: flex;

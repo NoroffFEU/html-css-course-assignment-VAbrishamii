@@ -415,12 +415,13 @@ footer {
     font-size: 25px;
   }
   /* ---------------------order------------------------------ */
-  .order {
+  .order h5 {
     font-size: 1rem;
   }
   .order .step:not(:last-child)::after {
-    left: 55%;
+    left: 75%;
     width: 15vw;
+    bottom: 34%;
   }
 
   .order .step h5 {
