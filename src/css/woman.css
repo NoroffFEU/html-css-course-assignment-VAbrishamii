@@ -394,17 +394,12 @@ footer {
   .container {
     display: none;
   }
-  .header {
-    height: 120px;
-  }
   .burger {
     display: flex;
-    margin: 18px;
+    margin-top: 20px;
     font-size: 25px;
   }
-  .burger-menu {
-    right: 1;
-  }
+
   /* ----------------------------ُslider------------------------ */
 
   .arrow {
