@@ -499,8 +499,21 @@ footer {
 }
 @media (min-width: 1600px) {
   .gallary {
-    display: flex;
+    grid-template-columns: repeat(auto-fit, 40rem);
   }
+  .card {
+    width: 100%;
+    justify-content: center;
+    margin-right: 5px;
+  }
+
+  .card-content h4 {
+    width: 400px;
+  }
+  .card img {
+    height: 300px;
+  }
+
   .slang .btn {
     font-size: 2rem;
     padding: 45px;
@@ -508,14 +521,7 @@ footer {
   .about img {
     width: 100vw;
   }
-  .card .btn {
-    font-size: 2rem;
-    padding: 50px;
-  }
-  .card p,
-  h4 {
-    font-size: 2rem;
-  }
+
   .content p,
   h3 {
     font-size: 3rem;
