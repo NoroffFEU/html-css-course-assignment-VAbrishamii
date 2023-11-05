@@ -361,6 +361,10 @@ footer {
 
 @media (max-width: 768px) {
   /* ------------Header-------------- */
+  h2 {
+    font-size: 3rem;
+  }
+
   .container {
     display: none;
   }
@@ -371,16 +375,15 @@ footer {
   }
 
   .slang p {
-    font-size: 1rem;
+    font-size: 15px;
     text-align: left;
     margin-top: 20px;
   }
-  .botton {
-    margin-top: 20rem;
-  }
+
   .botton .btn {
     margin-bottom: 5px;
     width: 80%;
+    margin-top: 7rem;
   }
 
   /* ------------------main----------------------- */
@@ -393,7 +396,9 @@ footer {
   .card .btn {
     width: 80%;
   }
-
+  .card {
+    margin-right: 20px;
+  }
   .about {
     flex-direction: column;
     padding: 20px;
@@ -496,7 +501,24 @@ footer {
   .gallary {
     display: flex;
   }
+  .slang .btn {
+    font-size: 2rem;
+    padding: 45px;
+  }
   .about img {
     width: 100vw;
+  }
+  .card .btn {
+    font-size: 2rem;
+    padding: 50px;
+  }
+  .card p,
+  h4 {
+    font-size: 2rem;
+  }
+  .content p,
+  h3 {
+    font-size: 3rem;
+    line-height: 1.2;
   }
 }
