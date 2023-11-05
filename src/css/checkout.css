@@ -416,7 +416,7 @@ footer {
   }
   /* ---------------------order------------------------------ */
   .order {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .order .step:not(:last-child)::after {
     left: 55%;
