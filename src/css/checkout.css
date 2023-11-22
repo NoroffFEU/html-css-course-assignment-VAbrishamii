@@ -153,6 +153,9 @@ li {
   font-size: 2rem;
   overflow: hidden;
 }
+.step h1 {
+  font-size: 2rem;
+}
 .order .step p {
   border: 1px solid #000;
   border-radius: 50%;
