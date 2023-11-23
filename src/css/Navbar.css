@@ -131,8 +131,4 @@ li {
   .search::after {
     margin-top: 2.8rem;
   }
-
-  .slider-item p {
-    margin-left: 14rem;
-  }
 }
