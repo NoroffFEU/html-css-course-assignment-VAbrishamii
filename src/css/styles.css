@@ -1,19 +1,36 @@
-/* Use import to split up your CSS into manageable chunks */
-@import url("./_reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
-@import url("./_variables.css");
-/* Feel free to add as many of these imports as you need */
-
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  margin: 0;
+  padding: 0 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  overflow-x: hidden;
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn {
+  width: 10vw;
+  height: 2vh;
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border: none;
+  border-radius: 5px;
+  margin: 0px 30px;
+
+  background: rgb(48, 47, 47);
+  color: white;
+  cursor: pointer;
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.btn:hover {
+  background-color: black;
 }
