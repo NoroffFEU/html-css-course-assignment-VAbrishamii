@@ -130,7 +130,7 @@ h1 {
     margin-left: 15vw;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1025px) {
   .slider-item p {
     margin-left: 15vw;
   }
