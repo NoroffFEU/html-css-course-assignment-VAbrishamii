@@ -76,7 +76,7 @@ li {
   margin-top: 40px;
 }
 
-.search li {
+.search p {
   margin-top: 0;
   display: flex;
   justify-content: space-between;

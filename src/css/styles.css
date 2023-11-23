@@ -17,6 +17,7 @@ a {
   width: 10vw;
   height: 2vh;
   padding: 25px;
+  /* position: absolute; */
 
   display: flex;
   align-items: center;
