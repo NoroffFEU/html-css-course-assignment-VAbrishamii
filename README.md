@@ -3,7 +3,7 @@
 
 ![Screenshot 2024-05-29 125609](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/assets/97852475/cbedca44-d9b0-4ee3-82cd-e0ef92682fd8)
 
-https://euphonious-sable-c9725c.netlify.app
+## https://euphonious-sable-c9725c.netlify.app
 
 ## Brief
 
