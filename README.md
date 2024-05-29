@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12541579&assignment_repo_type=AssignmentRepo)
+<!-- [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12541579&assignment_repo_type=AssignmentRepo)
 # HTML & CSS Course Assignment
 
 ## Brief
@@ -31,4 +31,18 @@ The site needs to have every page listed in the site architecture on your chosen
 
 - Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
 - Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+- There is no reflection for this CA. -->
+## Cross-Course Project (Design, HTML & CSS) 
+
+![Rainy Days](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/Screenshot%202024.png)
+
+[Visit Rainy Days](https://euphonious-sable-c9725c.netlify.app/)
+
+## Description 
+This is an online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enrich people's lives. The goal is to put into practice everything learned about HTML and CSS over the course in Front-end development studies in Noroff. of by bringing your design alive.
+
+## built with 
+
+(https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html.png) (https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css.png)
+
+
