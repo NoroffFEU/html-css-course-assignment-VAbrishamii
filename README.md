@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 <!-- [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12541579&assignment_repo_type=AssignmentRepo)
 # HTML & CSS Course Assignment
+=======
+
+# Rainy Day
+
+![Screenshot 2024-05-29 125609](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/assets/97852475/cbedca44-d9b0-4ee3-82cd-e0ef92682fd8)
+
+## https://euphonious-sable-c9725c.netlify.app
+>>>>>>> f017a125f3ad2542362570d4c45441705161b8ea
 
 ## Brief
+
 
 You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
 
@@ -31,6 +41,7 @@ The site needs to have every page listed in the site architecture on your chosen
 
 - Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
 - Please include a link to your public GitHub repo containing your code in your submission.
+<<<<<<< HEAD
 - There is no reflection for this CA. -->
 ## Cross-Course Project (Design, HTML & CSS) 
 
@@ -46,3 +57,6 @@ This is an online shop selling men's and women’s rain jackets. They are design
 (https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html.png) (https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css.png)
 
 
+=======
+- There is no reflection for this CA.
+>>>>>>> f017a125f3ad2542362570d4c45441705161b8ea
