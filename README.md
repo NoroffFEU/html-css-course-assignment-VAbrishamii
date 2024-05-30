@@ -1,6 +1,6 @@
 ## Cross-Course Project (Design, HTML & CSS) 
 
-![Rainy Days](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/Screenshot%202024.png)
+[Rainy Days](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/Screenshot%202024.png)
 
 [Visit Rainy Days](https://euphonious-sable-c9725c.netlify.app/)
 
@@ -30,8 +30,10 @@ To run the app, run the following commands:
   npm run start
   ```
 ## Contact 
+
 Feel free to contact me:
-[Email](vahideabri89@gmail.com)
+Email: vahideabri89@gmail.com
+
 [Linkedin](linkedin.com/in/vahideh-abrishami-53b206170)
 
 ## Acknowledgments
