@@ -29,4 +29,15 @@ To run the app, run the following commands:
   ```sh
   npm run start
   ```
+## Contact 
+Feel free to contact me:
+[Email](vahideabri89@gmail.com)
+[Linkedin](linkedin.com/in/vahideh-abrishami-53b206170)
+
+## Acknowledgments
+Special thanks to Laura to reviewing and testing my project.
+
+
+
+
 
