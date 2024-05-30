@@ -14,4 +14,16 @@ This is an online shop selling men's and women’s rain jackets. They are design
    <img src="https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css-3.png" alt="Icon" width="50" height="50">
 </div>
 
+## Getting Started
+1. Clone the Repo:
+  ```sh
+  (https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii.git)
+
+2. Install the dependencies:  
+  ```sh
+  npm install
+## Running 
+To run the app, run the following commands:
+  ```sh
+  npm run start
 
