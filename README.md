@@ -18,13 +18,15 @@ This is an online shop selling men's and women’s rain jackets. They are design
 1. Clone the Repo:
   ```sh
   (https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii.git)
-  ```sh  
 
+  ```
 2. Install the dependencies:  
   ```sh
   npm install
+  ```
 ## Running 
 To run the app, run the following commands:
   ```sh
   npm run start
+  ```
 
