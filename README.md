@@ -9,12 +9,11 @@ This is an online shop selling men's and women’s rain jackets. They are design
 
 ## built with 
 
-![HTML](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html-5.png) ![CSS](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css-3.png)
+<!-- ![HTML](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html-5.png) ![CSS](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css-3.png) -->
 
-
-<img src="https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html-5.png" alt="Icon" width="50" height="50">
-<img src="https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css-3.png" alt="Icon" width="50" height="50">
-
-
+<div style="display: flex; gap: 10px;">
+   <img src="https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/html-5.png" alt="Icon" width="50" height="50">
+   <img src="https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/css-3.png" alt="Icon" width="50" height="50">
+</div>
 
 
