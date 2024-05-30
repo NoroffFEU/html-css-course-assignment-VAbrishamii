@@ -1,6 +1,6 @@
 ## Cross-Course Project (Design, HTML & CSS) 
 
-[Rainy Days](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/Screenshot%202024.png)
+![Rainy Days](https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii/blob/main/Screenshot%202024.png)
 
 [Visit Rainy Days](https://euphonious-sable-c9725c.netlify.app/)
 
