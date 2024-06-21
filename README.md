@@ -17,7 +17,7 @@ This is an online shop selling men's and women’s rain jackets. They are design
 ## Getting Started
 1. Clone the Repo:
   ```sh
-  (git clone https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii.git)
+  git clone https://github.com/NoroffFEU/html-css-course-assignment-VAbrishamii.git
 
   ```
 2. Install the dependencies:  
