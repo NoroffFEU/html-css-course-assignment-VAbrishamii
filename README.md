@@ -31,7 +31,6 @@ To run the app, run the following commands:
   ```
 or 
  ```sh
- open with VSCode's Live Server on port 5000
 [Open in VS Code](vscode://file/${workspaceFolder})
  ```
 
