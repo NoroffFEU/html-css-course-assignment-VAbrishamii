@@ -30,11 +30,7 @@ To run the app, run the following commands:
   npm run start
   ```
 or 
- ```sh
- open with VSCode's Live Server on port 5000
-
- ```
-[Open in VS Code](vscode://file/${workspaceFolder})
+[open with VSCode's Live Server on port 5000](vscode://file/${workspaceFolder})
 
 
 ## Contact 
